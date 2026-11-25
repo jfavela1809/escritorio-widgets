@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Escritorio Widgets</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="lienzo"></div>
+  <button id="boton-mas" class="interactivo" type="button" title="Agregar acceso o widget" aria-label="Agregar acceso o widget">+</button>
+  <div id="velo" class="interactivo" hidden></div>
+  <div id="ventanita" class="interactivo" hidden></div>
+  <div id="cortina" class="interactivo" hidden></div>
+  <div id="hoja-velo" class="interactivo" hidden></div>
+  <div id="hoja" class="interactivo" role="dialog" aria-label="Agregar widget" hidden></div>
+  <div id="menu" class="interactivo" role="menu" hidden></div>
+  <div id="aviso" role="status" hidden></div>
+
+  <script src="cuadricula.js"></script>
+  <script src="carpetas.js"></script>
+  <script src="historial.js"></script>
+  <script src="buscar.js"></script>
+  <!-- Registro de widgets y un <script> por widget (antes de app.js). -->
+  <script src="widgets/index.js"></script>
+  <script src="widgets/formatos.js"></script>
+  <script src="widgets/reloj.js"></script>
+  <script src="widgets/clima.js"></script>
+  <script src="widgets/uso-pc.js"></script>
+  <script src="widgets/notas.js"></script>
+  <script src="widgets/calendario.js"></script>
+  <script src="widgets/bateria.js"></script>
+  <script src="widgets/pendientes.js"></script>
+  <script src="widgets/enlaces.js"></script>
+  <script src="app.js"></script>
+  <script src="panel-widgets.js"></script>
+</body>
+</html>

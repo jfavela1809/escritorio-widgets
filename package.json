@@ -1,0 +1,21 @@
+{
+  "name": "escritorio-widgets",
+  "version": "0.1.0",
+  "description": "Escritorio Widgets: carpetas tipo Android y widgets sobre el escritorio de Windows",
+  "main": "src/main/main.js",
+  "license": "MIT",
+  "repository": "github:jfavela1809/escritorio-widgets",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test \"test/*.test.js\"",
+    "smoke": "electron scripts/smoke.js",
+    "spike": "electron spike/spike.js"
+  },
+  "devDependencies": {
+    "electron": "45.3.3"
+  },
+  "dependencies": {
+    "koffi": "3.3.8"
+  }
+}

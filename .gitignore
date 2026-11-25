@@ -1,0 +1,5 @@
+node_modules/
+# Capturas que genera la prueba automática (npm run smoke)
+scripts/*.png
+*.log
+*.tmp
